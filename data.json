@@ -1,0 +1,942 @@
+[
+  {
+    "nome": "Peter Parker (Tom Holland)",
+    "descrição": "Um adolescente que ganha superpoderes após ser picado por uma aranha radioativa, tornando-se o protegido de Tony Stark e um membro dos Vingadores.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/0/0f/Tom_Holland_as_Spider-Man.jpg",
+    "data": "10 de agosto de 2001 (19 Anos)",
+    "local": "Forest Hills, Queens, Nova York.",
+    "link": "https://pt.wikipedia.org/wiki/Peter_Parker_(Universo_Cinematográfico_Marvel)",
+    "tags": [
+      "mcu",
+      "terra-199999",
+      "vingadores",
+      "tecnologia stark",
+      "peter parker"
+    ],
+    "atributos": {
+    "força": 75,
+    "agilidade": 90,
+    "tecnologia": 95
+  }
+},
+  {
+    "nome": "Peter Parker (Tobey Maguire)",
+    "descrição": "Um adolescente tímido que, após ser picado por uma aranha geneticamente modificada, aprende que 'com grandes poderes vêm grandes responsabilidades'.",
+    "imagem": "https://rollingstone.com.br/wp-content/uploads/tobey_maguire_como__homem-aranha_foto_reproducao_sony.jpg",
+    "data": "10 de agosto de 1984 (41 Anos)",
+    "local": "Forest Hills, Queens, Nova York.",
+    "link": "https://pt.wikipedia.org/wiki/Peter_Parker_(série_de_filmes_de_Sam_Raimi)",
+    "tags": [
+      "filmes sam raimi",
+      "terra-96283",
+      "fotógrafo",
+      "responsabilidade",
+      "peter parker"
+    ],
+  "atributos": {
+    "força": 85,
+    "agilidade": 85,
+    "tecnologia": 20
+  }
+},
+  {
+    "nome": "Peter Parker (Andrew Garfield)",
+    "descrição": "Um pária social que é picado por uma aranha geneticamente modificada enquanto investigava a Oscorp e ganha poderes de aranha.",
+    "imagem": "https://cinebuzz.com.br/wp-content/uploads/2024/10/andrew-garfield-revela-condicao-para-voltar-a-viver-o-homem-aranha.jpg",
+    "data": "10 de agosto de 1995 (29 Anos)",
+    "local": "Forest Hills, Queens, Nova York.",
+    "link": "https://pt.wikipedia.org/wiki/Peter_Parker_(série_de_filmes_The_Amazing_Spider-Man)",
+    "tags": [
+      "filmes the amazing spider-man",
+      "terra-120703",
+      "skateboarder",
+      "oscorp",
+      "peter parker"
+    ],
+    "atributos": {
+    "força": 75,
+    "agilidade": 95,
+    "tecnologia": 70
+  }
+},
+  {
+    "nome": "Miles Morales",
+    "descrição": "Um adolescente do Brooklyn que é picado por uma aranha radioativa da Alchemax e se torna o novo Homem-Aranha após a morte do Peter Parker de sua dimensão.",
+    "imagem": "https://sm.ign.com/ign_br/news/s/sony-has-t/sony-has-told-marvel-to-stay-away-from-a-live-action-miles-m_cfsg.jpg",
+    "data": "Nascimento por volta de 2004 (14 anos em 'Homem-Aranha no Aranhaverso')",
+    "local": "Brooklyn, Nova York.",
+    "link": "https://pt.wikipedia.org/wiki/Miles_Morales",
+    "tags": [
+      "aranhaverso",
+      "terra-1610",
+      "invisibilidade",
+      "venom blast",
+      "brooklyn"
+    ],
+    "atributos": {
+    "força": 65,
+    "agilidade": 90,
+    "tecnologia": 50
+  }
+},
+  {
+    "nome": "Gwen Stacy (Spider-Gwen)",
+    "descrição": "De uma realidade alternativa (Terra-65), ela é picada por uma aranha radioativa em vez de Peter Parker, tornando-se a Mulher-Aranha de sua dimensão.",
+    "imagem": "https://i.pinimg.com/736x/03/32/c1/0332c184fd2b3cd55141dec33fe77f9c.jpg",
+    "data": "Nascimento por volta de 2002 (16-17 anos em 'Através do Aranhaverso')",
+    "local": "Forest Hills, Queens, Nova York (Terra-65).",
+    "link": "https://pt.wikipedia.org/wiki/Gwen_Stacy_(Terra-65)",
+    "tags": [
+      "aranhaverso",
+      "terra-65",
+      "spider-woman",
+      "baterista",
+      "the mary janes"
+    ],
+    "atributos": {
+    "força": 70,
+    "agilidade": 98,
+    "tecnologia": 60
+  }
+},
+  {
+    "nome": "Miguel O'Hara (Spider-Man 2099)",
+    "descrição": "Um geneticista do ano 2099 que tem seu DNA reescrito com o de uma aranha, ganhando poderes e se tornando o Homem-Aranha de sua era.",
+    "imagem": "https://preview.redd.it/fanart-a-couple-of-recent-spider-verse-miguel-ohara-spider-v0-xs084rigv7bb1.png?width=640&crop=smart&auto=webp&s=859fb9a66fe51c13c2f1af128132a8598b405bb3",
+    "data": "Nascido em 2070 (aproximadamente)",
+    "local": "Nueva York, Terra-928.",
+    "link": "https://pt.wikipedia.org/wiki/Homem-Aranha_2099",
+    "tags": [
+      "2099",
+      "terra-928",
+      "futuro",
+      "alchemax",
+      "miguel o'hara"
+    ],
+
+    "atributos": {
+    "força": 90,
+    "agilidade": 90,
+    "tecnologia": 100
+  }
+},
+  {
+    "nome": "Peter Porker (Spider-Ham)",
+    "descrição": "Uma aranha que foi mordida por um porco radioativo (May Porker), transformando-se em um porco com poderes de aranha.",
+    "imagem": "https://pm1.aminoapps.com/7260/800b418b082dfe28b2d282ebfd6d3863471453car1-800-450v2_00.jpg",
+    "data": "Desconhecida",
+    "local": "Larval Earth, Terra-8311.",
+    "link": "https://en.wikipedia.org/wiki/Spider-Ham",
+    "tags": [
+      "aranhaverso",
+      "terra-8311",
+      "cartoon",
+      "animal",
+      "peter porker"
+    ],
+    "atributos": {
+    "força": 70,
+    "agilidade": 80,
+    "tecnologia": 10
+  }
+},
+  {"nome": "Spider-Man Noir",
+    "descrição": "Na década de 1930, durante a Grande Depressão, Peter Parker é mordido por uma aranha mística e luta contra o crime com um visual sombrio.",
+    "imagem": "https://i.pinimg.com/736x/7b/54/63/7b54635c603f2561c91c297f93c00c31.jpg",
+    "data": "Início do século 20",
+    "local": "Nova York, Terra-90214.",
+    "link": "https://en.wikipedia.org/wiki/Spider-Man_Noir",
+    "tags": [
+      "noir",
+      "terra-90214",
+      "anos 30",
+      "detetive",
+      "peter parker"
+    ],
+    "atributos": {
+    "força": 70,
+    "agilidade": 75,
+    "tecnologia": 15
+  }},
+  {
+    "nome": "Peni Parker & SP//dr",
+    "descrição": "Uma jovem que pilota um traje mecânico (SP//dr) com o qual compartilha um elo psíquico, herdado de seu pai.",
+    "imagem": "https://cdna.artstation.com/p/assets/images/images/057/403/004/large/hriday-raktim-baruah-peni-parker.jpg?1671507831",
+    "data": "Desconhecida",
+    "local": "Nova York, Terra-14512.",
+    "link": "https://marvel.fandom.com/wiki/Peni_Parker_(Earth-14512)",
+    "tags": [
+      "aranhaverso",
+      "terra-14512",
+      "anime",
+      "mecha",
+      "sp//dr"
+    ],
+    "atributos": {
+    "força": 20,
+    "agilidade": 40,
+    "tecnologia": 98
+  }
+},
+  {
+    "nome": "Hobie Brown (Spider-Punk)",
+    "descrição": "Um anarquista que se tornou o Homem-Aranha em um regime totalitário, usando sua música e poderes para lutar pela liberdade.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Spider-Punk_%28Hobart_Brown%29.jpg/250px-Spider-Punk_%28Hobart_Brown%29.jpg",
+    "data": "Desconhecida",
+    "local": "Nova York, Terra-138.",
+    "link": "https://marvel.fandom.com/wiki/Hobart_Brown_(Earth-138)",
+    "tags": [
+      "aranhaverso",
+      "terra-138",
+      "punk",
+      "anarquista",
+      "hobie brown"
+    ],
+    "atributos": {
+    "força": 75,
+    "agilidade": 88,
+    "tecnologia": 30
+  }
+  },
+  {
+    "nome": "Pavitr Prabhakar (Spider-Man India)",
+    "descrição": "Um jovem de Mumbai que recebe poderes de um iogue místico para lutar contra o mal, tornando-se o Homem-Aranha da Índia.",
+    "imagem": "https://i.pinimg.com/474x/4b/bd/bf/4bbdbf710da84714200ed398918d47fd.jpg",
+    "data": "Desconhecida",
+    "local": "Mumbai, Índia, Terra-50101.",
+    "link": "https://en.wikipedia.org/wiki/Spider-Man:_India",
+    "tags": [
+      "aranhaverso",
+      "terra-50101",
+      "índia",
+      "místico",
+      "pavitr prabhakar"
+    ],
+  "atributos": {
+    "força": 70,
+    "agilidade": 92,
+    "tecnologia": 40
+  }
+},
+  {
+    "nome": "Ben Reilly (Scarlet Spider)",
+    "descrição": "Um clone de Peter Parker que inicialmente acredita ser o original. Ele cria sua própria identidade como o Aranha Escarlate.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/4/45/Scarlet_Spider_%28Ben_Reilly%29.jpg",
+    "data": "Criado em laboratório",
+    "local": "Nova York, Terra-616.",
+    "link": "https://pt.wikipedia.org/wiki/Ben_Reilly",
+    "tags": [
+      "clone",
+      "terra-616",
+      "aranha escarlate",
+      "saga do clone",
+      "ben reilly"
+    ],
+  "atributos": {
+    "força": 80,
+    "agilidade": 85,
+    "tecnologia": 65
+  }
+},
+  {
+    "nome": "Jessica Drew (Spider-Woman)",
+    "descrição": "Exposta a radiações de aranha por seu pai cientista, ela desenvolveu superpoderes e se tornou uma super-heroína, espiã e Vingadora.",
+    "imagem": "https://ovicio.com.br/wp-content/uploads/2023/04/20230404-image-21-730x365.png",
+    "data": "Desconhecida",
+    "local": "Wundagore Mountain, Transia, Terra-616.",
+    "link": "https://pt.wikipedia.org/wiki/Mulher-Aranha",
+    "tags": [
+      "vingadores",
+      "terra-616",
+      "s.h.i.e.l.d.",
+      "espiã",
+      "jessica drew"
+    ],
+    "atributos": {
+    "força": 75,
+    "agilidade": 80,
+    "tecnologia": 50
+  }
+},
+  {
+    "nome": "Cindy Moon (Silk)",
+    "descrição": "Mordida pela mesma aranha que Peter Parker, ela foi mantida em um bunker por anos para se proteger de Morlun. Possui teias orgânicas.",
+    "imagem": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2023/02/silk2023001_cov-1.jpg",
+    "data": "Desconhecida",
+    "local": "Nova York, Terra-616.",
+    "link": "https://en.wikipedia.org/wiki/Silk_(comics)",
+    "tags": [
+      "teia orgânica",
+      "terra-616",
+      "bunker",
+      "morlun",
+      "cindy moon"
+    ],
+    "atributos": {
+    "força": 70,
+    "agilidade": 95,
+    "tecnologia": 10
+  }
+},
+  {
+    "nome": "May 'Mayday' Parker (Spider-Girl)",
+    "descrição": "Filha de Peter Parker e Mary Jane em um futuro alternativo, ela herda os poderes de seu pai e assume o manto de Spider-Girl.",
+    "imagem": "https://marvelpuzzlequest.com/wp-content/uploads/2024/05/5Star_MayParker.jpg",
+    "data": "Desconhecida",
+    "local": "Nova York, Terra-982 (MC2).",
+    "link": "https://en.wikipedia.org/wiki/Spider-Girl_(Mayday_Parker)",
+    "tags": [
+      "mc2",
+      "terra-982",
+      "filha",
+      "futuro alternativo",
+      "mayday parker"
+    ],
+  "atributos": {
+    "força": 70,
+    "agilidade": 88,
+    "tecnologia": 55
+  }
+},
+  {
+    "nome": "Otto Octavius (Superior Spider-Man)",
+    "descrição": "A mente do Doutor Octopus no corpo de Peter Parker. Ele tenta provar que pode ser um Homem-Aranha 'superior', usando métodos mais brutais.",
+    "imagem": "https://preview.redd.it/c61u0fe657971.jpg?width=640&crop=smart&auto=webp&s=c722c281d1f3840748d77585cdd1261bf7761fa0",
+    "data": "Mente transferida",
+    "local": "Nova York, Terra-616.",
+    "link": "https://en.wikipedia.org/wiki/Superior_Spider-Man",
+    "tags": [
+      "doutor octopus",
+      "terra-616",
+      "anti-herói",
+      "superior",
+      "otto octavius"
+    ],
+  "atributos": {
+    "força": 85,
+    "agilidade": 80,
+    "tecnologia": 95
+  }
+},
+  {
+    "nome": "Kaine Parker (Scarlet Spider)",
+    "descrição": "O primeiro clone de Peter Parker, inicialmente um vilão desfigurado, mas que mais tarde se torna um anti-herói e assume o manto de Aranha Escarlate.",
+    "imagem": "https://marvelpuzzlequest.com/wp-content/uploads/2024/06/5KaineParker_CharacterCover.jpg",
+    "data": "Criado em laboratório",
+    "local": "Houston, Texas (atualmente), Terra-616.",
+    "link": "https://en.wikipedia.org/wiki/Kaine_Parker",
+    "tags": [
+      "clone",
+      "terra-616",
+      "aranha escarlate",
+      "anti-herói",
+      "kaine parker"
+    ],
+  "atributos": {
+    "força": 90,
+    "agilidade": 80,
+    "tecnologia": 25
+  }
+},
+  {
+    "nome": "Anya Corazon (Araña/Spider-Girl)",
+    "descrição": "Uma jovem que recebeu poderes de uma sociedade mística de caçadores de aranhas. Mais tarde, desenvolveu poderes de aranha mais tradicionais.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/f/f2/Spider-Island_The_Amazing_Spider-Girl_Vol_1_1_Textless.jpg",
+    "data": "Desconhecida",
+    "local": "Brooklyn, Nova York, Terra-616.",
+    "link": "https://en.wikipedia.org/wiki/Anya_Corazon",
+    "tags": [
+      "araña",
+      "terra-616",
+      "sociedade da aranha",
+      "místico",
+      "anya corazon"
+    ],
+  "atributos": {
+    "força": 65,
+    "agilidade": 85,
+    "tecnologia": 30
+  }
+  },
+  {
+    "nome": "Spider-Man (Insomniac Games)",
+    "descrição": "Uma versão experiente de Peter Parker que atua como Homem-Aranha há oito anos, enfrentando uma galeria de vilões em Nova York.",
+    "imagem": "https://dropsdejogos.uai.com.br/wp-content/uploads/sites/10/2022/07/divulgacao-spider-man-pc-scaled.jpg",
+    "data": "Nascido em 2000 (aproximadamente)",
+    "local": "Nova York, Terra-1048.",
+    "link": "https://marvels-spider-man.fandom.com/wiki/Peter_Parker_(Earth-1048)",
+    "tags": [
+      "playstation",
+      "terra-1048",
+      "insomniac",
+      "experiente",
+      "peter parker"
+    ],
+  "atributos": {
+    "força": 80,
+    "agilidade": 90,
+    "tecnologia": 85
+  }
+},
+  {
+    "nome": "Miles Morales (Insomniac Games)",
+    "descrição": "Após ser picado por uma aranha geneticamente modificada da Oscorp, Miles é treinado por Peter Parker para se tornar o segundo Homem-Aranha de Nova York.",
+    "imagem": "https://www.mercurynews.com/wp-content/uploads/2020/11/MSMMM_Review_City_Trick-This-asset-is-under-embargo-until-November-6th-5AM-PT-495115fa193aa4c8801.90332659.png?w=1024&h=576",
+    "data": "Nascido em 2004 (aproximadamente)",
+    "local": "Brooklyn, Nova York, Terra-1048.",
+    "link": "https://marvels-spider-man.fandom.com/wiki/Miles_Morales_(Earth-1048)",
+    "tags": [
+      "playstation",
+      "terra-1048",
+      "insomniac",
+      "harlem",
+      "miles morales"
+    ],
+  "atributos": {
+    "força": 70,
+    "agilidade": 92,
+    "tecnologia": 75
+  }
+},
+  {
+    "nome": "Spider-UK (Billy Braddock)",
+    "descrição": "Uma versão britânica do Homem-Aranha que também é membro do Corpo de Capitães Britânia. Ele foi um dos líderes do Exército-Aranha.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/6/65/Spider-UK.jpg",
+    "data": "Desconhecida",
+    "local": "Braddock Manor, Terra-833.",
+    "link": "https://marvel.fandom.com/wiki/William_Braddock_(Earth-833)",
+    "tags": [
+      "exército-aranha",
+      "terra-833",
+      "capitão britânia",
+      "reino unido",
+      "billy braddock"
+    ],
+  "atributos": {
+    "força": 80,
+    "agilidade": 80,
+    "tecnologia": 60
+  }
+},
+  {
+    "nome": "Ashley Barton (Spider-Bitch)",
+    "descrição": "Neta de Peter Parker em um futuro distópico ('Velho Logan'), ela é a filha de Hawkeye e governa uma parte dos EUA com punho de ferro.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Spider-Bitch.jpg/250px-Spider-Bitch.jpg",
+    "data": "Desconhecida",
+    "local": "Hammer Falls, Terra-807128.",
+    "link": "https://marvel.fandom.com/wiki/Ashley_Barton_(Earth-807128)",
+    "tags": [
+      "velho logan",
+      "terra-807128",
+      "distopia",
+      "neta",
+      "ashley barton"
+    ],
+  "atributos": {
+    "força": 75,
+    "agilidade": 85,
+    "tecnologia": 20
+  }
+},
+  {
+    "nome": "Doppelganger",
+    "descrição": "Uma duplicata mística e monstruosa do Homem-Aranha com seis braços e presas, criada durante a saga 'Guerra Infinita'.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/3/36/Spiderdoppelganger.png",
+    "data": "Criado misticamente",
+    "local": "Nova York, Terra-616.",
+    "link": "https://en-wikipedia-org.translate.goog/wiki/Doppelganger_(Marvel_Comics)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc",
+    "tags": [
+      "guerra infinita",
+      "terra-616",
+      "monstro",
+      "seis braços",
+      "clone místico"
+    ],
+  "atributos": {
+    "força": 88,
+    "agilidade": 85,
+    "tecnologia": 0
+  }
+},
+  {
+    "nome": "Takuya Yamashiro (Supaidāman)",
+    "descrição": "Um piloto de motocross que recebe um bracelete de um alienígena, permitindo que ele se transforme no Homem-Aranha e pilote um robô gigante, o Leopardon.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSwsDTTwtTIbvBW8R2Y0kUDN1vP7Hw_dycg&s",
+    "data": "Desconhecida",
+    "local": "Tóquio, Japão, Terra-51778.",
+    "link": "https://en.wikipedia.org/wiki/Spider-Man_(Japanese_TV_series)",
+    "tags": [
+      "tokusatsu",
+      "terra-51778",
+      "japão",
+      "leopardon",
+      "takuya yamashiro"
+    ],
+  "atributos": {
+    "força": 60,
+    "agilidade": 70,
+    "tecnologia": 80
+  }
+},
+  {
+    "nome": "Norman Osborn (Duende Verde)",
+    "descrição": "Fundador e CEO das Indústrias Oscorp que, após um experimento falho, se torna o insano supervilão Duende Verde, arqui-inimigo do Homem-Aranha.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXNFRRiQVpuMTW1BQMWmn_VrNCOnJ4LNOtg&s",
+    "data": "Primeira aparição: Amazing Spider-Man #14 (Julho de 1964)",
+    "local": "Nova York, principalmente Manhattan",
+    "link": "https://marvel.fandom.com/wiki/Norman_Osborn_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Terra-616",
+      "Duende Verde",
+      "Oscorp"
+    ],
+    "atributos": {
+      "força": 80,
+      "agilidade": 70,
+      "tecnologia": 90
+    }
+  },
+  {
+    "nome": "Eddie Brock (Venom)",
+    "descrição": "Ex-jornalista que culpa Peter Parker por sua demissão. Torna-se hospedeiro do simbionte Venom, formando um dos inimigos mais icônicos do Homem-Aranha.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/a/aa/Venom_%28Eddie_Brock_-_circa_1988%29.jpg",
+    "data": "Primeira aparição (como Venom): The Amazing Spider-Man #300 (Maio de 1988)",
+    "local": "San Francisco / Nova York",
+    "link": "https://marvel.fandom.com/wiki/Eddie_Brock_(Earth-616)",
+    "tags": [
+      "Simbionte",
+      "Anti-herói",
+      "Terra-616",
+      "Jornalista"
+    ],
+    "atributos": {
+      "força": 95,
+      "agilidade": 75,
+      "tecnologia": 5
+    }
+  },
+  {
+    "nome": "Dr. Curt Connors (Lagarto)",
+    "descrição": "Brilhante biólogo com um braço perdido que tenta regenerá-lo usando DNA de répteis, transformando-se no monstro selvagem conhecido como Lagarto.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO7DzDDY6SJSYJLSACVvCifm9SHvlntdFGJg&s",
+    "data": "Primeira aparição: The Amazing Spider-Man #6 (Novembro de 1963)",
+    "local": "Laboratórios Connors, Flórida e Nova York",
+    "link": "https://marvel.fandom.com/wiki/Curtis_Connors_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Cientista",
+      "Mutação",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 85,
+      "agilidade": 70,
+      "tecnologia": 70
+    }
+  },
+  {
+    "nome": "Sergei Kravinoff (Kraven, o Caçador)",
+    "descrição": "Caçador russo obcecado em provar que é o maior caçador do mundo. Vê o Homem-Aranha como a caça mais desafiadora de todas.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Kraven_the_Hunter_%282017_Design%29.webp/250px-Kraven_the_Hunter_%282017_Design%29.webp.png",
+    "data": "Primeira aparição: The Amazing Spider-Man #15 (Agosto de 1964)",
+    "local": "Rússia, viaja pelo mundo",
+    "link": "https://marvel.fandom.com/wiki/Sergei_Kravinoff_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Caçador",
+      "Terra-616",
+      "Sexteto Sinistro"
+    ],
+    "atributos": {
+      "força": 70,
+      "agilidade": 80,
+      "tecnologia": 20
+    }
+  },
+  {
+    "nome": "J. Jonah Jameson",
+    "descrição": "Editor-chefe e, mais tarde, publisher do Clarim Diário. Ele é famoso por sua hostilidade obsessiva contra o Homem-Aranha, a quem ele considera uma ameaça.",
+    "imagem": "https://miro.medium.com/1*8W7Z4aMRw_etKmtmUpmxWw.jpeg",
+    "data": "Primeira aparição: The Amazing Spider-Man #1 (Março de 1963)",
+    "local": "Nova York (Clarim Diário)",
+    "link": "https://marvel.fandom.com/wiki/J._Jonah_Jameson_(Earth-616)",
+    "tags": [
+      "Coadjuvante",
+      "Editor",
+      "Jornalista",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 5,
+      "agilidade": 5,
+      "tecnologia": 10
+    }
+  },
+  {
+    "nome": "Mary Jane Watson",
+    "descrição": "Atriz e modelo ruiva vibrante, interesse amoroso principal e, por muito tempo, esposa de Peter Parker. Seu famoso bordão é: 'Face it, Tiger... you just hit the jackpot!'",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/6/68/Mary_Jane_Watson_%28circa_2007%29.png",
+    "data": "Primeira aparição: The Amazing Spider-Man #25 (Junho de 1965)",
+    "local": "Forest Hills, Queens, Nova York",
+    "link": "https://marvel.fandom.com/wiki/Mary_Jane_Watson_(Earth-616)",
+    "tags": [
+      "Coadjuvante",
+      "MJ",
+      "Modelo",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 5,
+      "agilidade": 10,
+      "tecnologia": 5
+    }
+  },
+  {
+    "nome": "Flint Marko (Homem-Areia)",
+    "descrição": "Pequeno criminoso que, após exposição acidental a radiação, ganha a capacidade de transformar seu corpo em areia controlável.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/92/Thomas_Haden_Church_como_Homem_Areia.jpg/250px-Thomas_Haden_Church_como_Homem_Areia.jpg",
+    "data": "Primeira aparição: The Amazing Spider-Man #4 (Setembro de 1963)",
+    "local": "Queens, Nova York",
+    "link": "https://marvel.fandom.com/wiki/William_Baker_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Elementar",
+      "Terra-616",
+      "Sexteto Sinistro"
+    ],
+    "atributos": {
+      "força": 90,
+      "agilidade": 60,
+      "tecnologia": 0
+    }
+  },
+  {
+    "nome": "Max Dillon (Electro)",
+    "descrição": "Eletricista que adquire o poder de gerar e controlar grandes quantidades de eletricidade após ser atingido por um raio enquanto consertava linhas de energia.",
+    "imagem": "https://cdn.marvel.com/content/2x/1100emd_ons_mas_mob_01.jpg",
+    "data": "Primeira aparição: The Amazing Spider-Man #9 (Fevereiro de 1964)",
+    "local": "Nova York",
+    "link": "https://marvel.fandom.com/wiki/Maxwell_Dillon_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Eletricidade",
+      "Sexteto Sinistro"
+    ],
+    "atributos": {
+      "força": 75,
+      "agilidade": 80,
+      "tecnologia": 50
+    }
+  },
+  {
+    "nome": "Aleksei Sytsevich (Rhino)",
+    "descrição": "Imigrante russo que aceita participar de um experimento que o cobre com uma pele polimérica super-resistente, transformando-o no supervilão Rhino.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/f/fc/Rhinopreview.jpg",
+    "data": "Primeira aparição: The Amazing Spider-Man #41 (Outubro de 1966)",
+    "local": "Rússia / Nova York",
+    "link": "https://marvel.fandom.com/wiki/Aleksei_Sytsevich_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Força-Bruta",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 98,
+      "agilidade": 30,
+      "tecnologia": 40
+    }
+  },
+  {
+    "nome": "Adrian Toomes (Abutre)",
+    "descrição": "Ex-engenheiro eletrônico que cria um traje de voo eletromagnético e se transforma em um ladrão de alta tecnologia, um dos vilões mais antigos do Aranha.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/4/46/Vulture_%28Adrian_Toomes%29.png",
+    "data": "Primeira aparição: The Amazing Spider-Man #2 (Maio de 1963)",
+    "local": "Staten Island, Nova York",
+    "link": "https://marvel.fandom.com/wiki/Adrian_Toomes_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Tecnologia",
+      "Sexteto Sinistro"
+    ],
+    "atributos": {
+      "força": 40,
+      "agilidade": 70,
+      "tecnologia": 85
+    }
+  },
+  {
+    "nome": "Cletus Kasady (Carnificina)",
+    "descrição": "Psicopata e assassino em série que se torna o hospedeiro do simbionte Carnificina, a prole mais perigosa e sanguinária de Venom.",
+    "imagem": "https://lh4.googleusercontent.com/proxy/SuQxCr8qsvMsO6orE3eTYxZLIyHUUapZdSehPT9au-GaZYzKHoQH1mMuzRfCaeub2YWhqpp27_WXwiZpnT-DCYzlUYovrdBsynVUIxL9k8vCEOOHkEqJte3l3PYnvKalcA",
+    "data": "Primeira aparição: The Amazing Spider-Man #361 (Abril de 1992)",
+    "local": "Riker's Island, Nova York",
+    "link": "https://marvel.fandom.com/wiki/Cletus_Kasady_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Simbionte",
+      "Psicopata",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 98,
+      "agilidade": 85,
+      "tecnologia": 5
+    }
+  },
+  {
+    "nome": "Flash Thompson (Agente Venom)",
+    "descrição": "Ex-valentão de Peter Parker e, mais tarde, herói de guerra. Se une ao simbionte Venom, atuando como um agente militar e anti-herói.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cf/Flash_Thompson.jpg/250px-Flash_Thompson.jpg",
+    "data": "Primeira aparição (como Flash): Amazing Fantasy #15 (Agosto de 1962)",
+    "local": "Queens, Nova York",
+    "link": "https://marvel.fandom.com/wiki/Eugene_Thompson_(Earth-616)",
+    "tags": [
+      "Anti-herói",
+      "Simbionte",
+      "Militar"
+    ],
+    "atributos": {
+      "força": 90,
+      "agilidade": 80,
+      "tecnologia": 70
+    }
+  },
+  {
+    "nome": "Felicia Hardy (Gata Negra)",
+    "descrição": "Ladrã de joias acrobática e mestre de infiltração, com a capacidade de gerar 'má sorte' aos outros. Ela é uma anti-heroína e aliada/amante do Homem-Aranha.",
+    "imagem": "https://m.media-amazon.com/images/I/91R2Xs4H0aL._AC_UF1000,1000_QL80_.jpg",
+    "data": "Primeira aparição: The Amazing Spider-Man #194 (Julho de 1979)",
+    "local": "Nova York",
+    "link": "https://marvel.fandom.com/wiki/Felicia_Hardy_(Earth-616)",
+    "tags": [
+      "Anti-Heroína",
+      "Ladra",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 30,
+      "agilidade": 90,
+      "tecnologia": 60
+    }
+  },
+  {
+    "nome": "Quentin Beck (Mysterio)",
+    "descrição": "Ex-especialista em efeitos especiais de Hollywood. Usa ilusões e tecnologia avançada para cometer crimes e enganar seus oponentes.",
+    "imagem": "https://preview.redd.it/what-is-your-opinion-on-mysterio-is-he-a-great-villain-v0-ly33v50e8c9d1.jpeg?auto=webp&s=d52bc073d527f7522bc5dca59bd3f812c866f05b",
+    "data": "Primeira aparição: The Amazing Spider-Man #13 (Junho de 1964)",
+    "local": "Hollywood, Califórnia / Nova York",
+    "link": "https://marvel.fandom.com/wiki/Quentin_Beck_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Ilusionista",
+      "Sexteto Sinistro"
+    ],
+    "atributos": {
+      "força": 20,
+      "agilidade": 30,
+      "tecnologia": 95
+    }
+  },
+  {
+    "nome": "May Parker (Tia May)",
+    "descrição": "Amorosa tia de Peter Parker e figura materna, conhecida por sua bondade e preocupação constante com a saúde e o bem-estar de seu sobrinho.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/May_Parker.jpg/250px-May_Parker.jpg",
+    "data": "Primeira aparição: Amazing Fantasy #15 (Agosto de 1962)",
+    "local": "Forest Hills, Queens, Nova York",
+    "link": "https://marvel.fandom.com/wiki/May_Parker_(Earth-616)",
+    "tags": [
+      "Coadjuvante",
+      "Família",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 5,
+      "agilidade": 5,
+      "tecnologia": 0
+    }
+  },
+  {
+    "nome": "Mac Gargan (Escorpião)",
+    "descrição": "Originalmente um investigador contratado por J. Jonah Jameson, ele se transforma no Escorpião após um experimento que o dota de um traje blindado e cauda venenosa.",
+    "imagem": "https://i.redd.it/qxcw6c35ejdc1.png",
+    "data": "Primeira aparição: The Amazing Spider-Man #19 (Dezembro de 1964)",
+    "local": "Nova York",
+    "link": "https://marvel.fandom.com/wiki/MacDonald_Gargan_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Sexteto Sinistro",
+      "Ex-Venom"
+    ],
+    "atributos": {
+      "força": 80,
+      "agilidade": 65,
+      "tecnologia": 75
+    }
+  },
+  {
+    "nome": "Herman Schultz (Shocker)",
+    "descrição": "Ladrão de bancos com habilidades de engenharia que inventa luvas capazes de emitir rajadas de vibração de alta frequência e usa um traje acolchoado.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/7/78/Shocker_%28Herman_Schultz%29.jpg",
+    "data": "Primeira aparição: The Amazing Spider-Man #46 (Março de 1967)",
+    "local": "Nova York",
+    "link": "https://marvel.fandom.com/wiki/Herman_Schultz_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Tecnologia",
+      "Ladrão"
+    ],
+    "atributos": {
+      "força": 25,
+      "agilidade": 40,
+      "tecnologia": 80
+    }
+  },
+  {
+    "nome": "Morlun",
+    "descrição": "Entidade vampírica interdimensional que se alimenta da força vital dos totens-aranha através do Multiverso. Principal vilão da saga Spider-Verse.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCAXAwH2Aceze6SCw3YK8i612be7AgeXyGA&s",
+    "data": "Primeira aparição: The Amazing Spider-Man #30 (Junho de 2001)",
+    "local": "Multiverso (Terra-001)",
+    "link": "https://marvel.fandom.com/wiki/Morlun_(Earth-001)",
+    "tags": [
+      "Vilão",
+      "Multiverso",
+      "Totem",
+      "Caçador"
+    ],
+    "atributos": {
+      "força": 100,
+      "agilidade": 90,
+      "tecnologia": 10
+    }
+  },
+  {
+    "nome": "Cassandra Webb (Madame Teia)",
+    "descrição": "Mutante e clarividente cega que sofre de miastenia gravis e é conectada a um sistema de suporte de vida que se assemelha a uma teia de aranha. Guia várias 'mulheres-aranha'.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT74YG8bnkVXAzTFrTvglbQQmx-Wl1pm_KuzdsdfPzg6kSk0ehOXfB_fxjNdFVHSQd5HI8&usqp=CAU",
+    "data": "Primeira aparição: The Amazing Spider-Man #210 (Novembro de 1980)",
+    "local": "Nova York",
+    "link": "https://marvel.fandom.com/wiki/Cassandra_Webb_(Earth-616)",
+    "tags": [
+      "Coadjuvante",
+      "Clarividente",
+      "Mutante"
+    ],
+    "atributos": {
+      "força": 0,
+      "agilidade": 0,
+      "tecnologia": 70
+    }
+  },
+  {
+    "nome": "Julia Carpenter (Mulher-Aranha)",
+    "descrição": "Segunda Mulher-Aranha, mais tarde assume o papel de Madame Teia. Desenvolveu poderes psíquicos e a capacidade de criar 'teias' de energia psiônica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/0/0f/Spider-Woman_%28Julia_Carpenter%29.png",
+    "data": "Primeira aparição: Marvel Super Heroes Secret Wars #6 (Outubro de 1984)",
+    "local": "Denver, Colorado",
+    "link": "https://marvel.fandom.com/wiki/Julia_Carpenter_(Earth-616)",
+    "tags": [
+      "Herói",
+      "Vingadores",
+      "Mulher-Aranha"
+    ],
+    "atributos": {
+      "força": 75,
+      "agilidade": 85,
+      "tecnologia": 20
+    }
+  },
+  {
+    "nome": "Aaron Davis (Gatuno)",
+    "descrição": "Ladrão de alta tecnologia e tio de Miles Morales (Homem-Aranha Ultimate). Inicialmente um vilão, ele tenta se redimir em algumas histórias.",
+    "imagem": "https://pm1.aminoapps.com/6413/bca68624427505e0d3fdff4aad952bd7f09eff6a_hq.jpg",
+    "data": "Primeira aparição: Ultimate Comics Spider-Man #1 (Setembro de 2011)",
+    "local": "Brooklyn, Nova York (Terra-1610)",
+    "link": "https://marvel.fandom.com/wiki/Aaron_Davis_(Earth-1610)",
+    "tags": [
+      "Vilão",
+      "Prowler",
+      "Terra-1610",
+      "Ultimate"
+    ],
+    "atributos": {
+      "força": 20,
+      "agilidade": 60,
+      "tecnologia": 80
+    }
+  },
+  {
+    "nome": "Morrie Bench (Homem-Hídrico)",
+    "descrição": "Ex-marinheiro exposto a um gerador experimental que lhe concedeu a habilidade de transformar seu corpo em água, controlando formas e volume.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfsxPmHwoisFYm12dEZn3Bl5CW6-kI-P_cQ&s",
+    "data": "Primeira aparição: The Amazing Spider-Man #212 (Janeiro de 1981)",
+    "local": "Nova York (Doca)",
+    "link": "https://marvel.fandom.com/wiki/Morris_Bench_(Earth-616)",
+    "tags": [
+      "Vilão",
+      "Elementar",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 85,
+      "agilidade": 70,
+      "tecnologia": 0
+    }
+  },
+  {
+    "nome": "Randy Robertson",
+    "descrição": "Filho de Robbie Robertson e amigo de faculdade de Peter Parker. Atua como jornalista social e, mais tarde, fotógrafo do Clarim Diário.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/d/db/Randyrobertson.jpg",
+    "data": "Primeira aparição: The Amazing Spider-Man #67 (Dezembro de 1968)",
+    "local": "Harlem, Nova York",
+    "link": "https://marvel.fandom.com/wiki/Randolph_Robertson_(Earth-616)",
+    "tags": [
+      "Coadjuvante",
+      "Jornalista",
+      "Amigo de Peter"
+    ],
+    "atributos": {
+      "força": 10,
+      "agilidade": 15,
+      "tecnologia": 5
+    }
+  },
+  {
+    "nome": "George Stacy",
+    "descrição": "Capitão aposentado da polícia de Nova York e pai de Gwen Stacy. Apesar de sua posição, ele respeitava e entendia o papel do Homem-Aranha, morrendo tragicamente em serviço.",
+    "imagem": "https://lh3.googleusercontent.com/proxy/mhK37Fz1B3n2UdNEGP8EXMiIA_ex-wsgEj2RSCX3XeNvEUdY4V2RbKShCcOW4ghDzzNzeB-UjCiMBWAFR89FpsterzG95NrOO6TY35h0E2s",
+    "data": "Primeira aparição: The Amazing Spider-Man #56 (Janeiro de 1968)",
+    "local": "Nova York",
+    "link": "https://marvel.fandom.com/wiki/George_Stacy_(Earth-616)",
+    "tags": [
+      "Coadjuvante",
+      "Policial",
+      "Terra-616"
+    ],
+    "atributos": {
+      "força": 15,
+      "agilidade": 10,
+      "tecnologia": 10
+    }
+  },
+  {
+    "nome": "May Reilly (Spider-Ma'am)",
+    "descrição": "Uma versão alternativa da Tia May que foi picada pela aranha radioativa, tornando-se a heroína de sua dimensão. Carrega um cinto de utilidades com guloseimas.",
+    "imagem": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/12/Aunt-May-Spider-Maam.jpg?q=50&fit=crop&w=825&dpr=1.5",
+    "data": "Primeira aparição: Vault of Spiders #2 (Dezembro de 2018)",
+    "local": "Terra-3123",
+    "link": "https://marvel.fandom.com/wiki/May_Reilly_(Earth-3123)",
+    "tags": [
+      "Spider-Verse",
+      "Alternativo",
+      "Tia May",
+      "Humor"
+    ],
+    "atributos": {
+      "força": 60,
+      "agilidade": 65,
+      "tecnologia": 20
+    }
+  }
+]

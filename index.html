@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Aranha</title>
+</head>
+<body>
+    <header>
+        <img src="WEB ARANHA LOGO.png" alt="Logo Web Aranha" id="logo">
+        <div class="search-container">
+            <input type="text" id="busca-input" placeholder="Buscar personagem"> 
+            <button onclick="iniciarBusca()" id="botao-busca">Buscar</button>
+        </div>
+        <button id="btn-topo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Voltar ao topo">
+    🕸️
+</button>
+
+    </header>
+    <div class="filter-container"></div>
+    <main class="card-container">
+        <!-- Os cards serão inseridos aqui pelo script.js -->
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+            <a href="https://github.com/SoVictorCosta-dev">Github</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/sovictorcosta">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

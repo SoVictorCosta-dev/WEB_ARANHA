@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Science+Gothic:wght@100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+ 
+:root {
+    --bg-color: #f8f9fa;
+    --card-bg-color: #ffffff;
+    --text-color: #212529;
+    --text-secondary: #6c757d;
+    --primary-color: #0262fb;
+    --secondary-color: #ff0400;
+    --tertiary-color: #ffffff;
+    --border-color: #dee2e6;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */ /* Fundo escuro para destacar as cores */
+    background-size: 20px 20px;
+    background-color: #f8f9fa;
+    background-image: radial-gradient(#0262fb 1px, transparent 1px);
+    background-position: 0 0, 10px 10px;
+    color: var(--text-color);
+    font-family: "Science Gothic", sans-serif; /* Define a família da fonte */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+header {
+    padding: 1.5rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas menores */
+    top: 0; /* Posição do topo quando sticky */
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    background-color: #fff;
+    z-index: 100; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    border-bottom: 4px solid #000; /* Adiciona uma borda inferior */
+    box-shadow: 0 4px 0 var(--primary-color);
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#logo {
+    height: 100px; /* Define uma altura para o logo */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin: 0; /* Remove a margem padrão */
+    font-weight: 500; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+}
+
+header .search-container input {
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 30px; /* Arredonda as bordas */
+    border: 3px solid #000; /* Define a borda */
+    background: var(--card-bg-color); /* Cor de fundo */
+    background-color: #f0f0f0;
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+    width: 350px; /* Largura do input */
+    color: #000; /* Cor do texto digitado */
+    margin-right: .5rem; /* Margem à direita */
+    box-shadow: inset 3px 3px 0 rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+header .search-container input::placeholder {
+    font-size: 1.2rem; /* Tamanho da fonte do placeholder */
+    font-weight: 300; /* Peso da fonte do placeholder */
+    color: var(--text-color); /* Cor do texto do placeholder */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+header .search-container input:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    background-color: #fff;
+    border-color: var(--secondary-color); /* Muda a cor da borda ao focar */
+    box-shadow: 6px 6px 0 rgba(0,0,0,0.2); /* Adiciona uma sombra de caixa para indicar foco */
+    transform: translateY(-3px);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#botao-busca {
+    padding: 0.85rem 2rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: 2px solid #000; /* Remove a borda padrão */
+    box-shadow: 4px 4px 0px #000;
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    font-family: inherit; /* Herda a família da fonte */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */
+    background-color: var(--secondary-color); /* Cor de fundo */
+    color: #000; /* Cor do texto */
+    border: 1px solid var(--secondary-color); /* Adiciona uma borda */
+}
+
+#botao-busca:hover {
+    background-color: #d90400; /* Muda a cor de fundo para um vermelho mais escuro ao passar o mouse */
+    border-color: #d90400;
+    color: #fff;
+    box-shadow: 0 0 0 0.1rem var(--secondary-color); /* Adiciona uma sombra de caixa vermelha */
+}
+
+#btn-topo {
+    position: fixed;
+    bottom: 80px; /* Acima dos prédios do rodapé */
+    right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0 #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; /* Começa escondido */
+    z-index: 100;
+    transition: transform 0.2s;
+}
+
+#btn-topo:hover {
+    transform: scale(1.1) rotate(15deg);
+    background-color: var(--secondary-color);
+}
+
+.filter-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--text-secondary-color);
+    background-color: transparent;
+    color: var(--text-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
+}
+
+.btn-saiba-mais {
+    margin-top: auto; 
+    align-self: flex-end;
+    display: inline-block;
+    background: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 10px rgba(255, 4, 0, 0.4);
+}
+
+.btn-saiba-mais:hover {
+    background: #fff;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+#botao-busca:active {
+    transform: translate(2px, 2px); /* Efeito de clique (diminui o tamanho) */
+    box-shadow: 2px 2px 0px #000;
+}
+
+.card-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Cria uma grade responsiva */
+    gap: 1.5rem; /* Espaçamento entre os cards */
+    padding: 2rem; /* Espaçamento ao redor da grade */
+    max-width: 1400px; /* Largura máxima da grade */
+    margin: 0 auto; /* Centraliza a grade */
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+
+article {
+    background: var(--card-bg-color); /* Cor de fundo para o card */
+    border: 2px solid #000;
+    border-radius:3px; /* Cantos arredondados */
+    padding: 1.5rem; /* Espaçamento interno */
+    box-shadow: 6px 6px 0px #000; /* Sombra para dar profundidade */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave para o hover */
+    position: relative;
+    overflow: visible; /* Permite que a imagem saia se quiser */
+    animation: fadeIn 0.5s ease-out forwards;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+article:hover {
+    transform: translate(-3px, -3px); /* Eleva o card ao passar o mouse */
+    box-shadow: 10px 10px 0px var(--secondary-color); /* Aumenta a sombra no hover */
+    border-color: var(--tertiary-color);
+    cursor: pointer; /* Muda o cursor para uma mão */
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+
+.avatar {
+    width: 80px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+}
+
+article h2 {
+    margin-top: 0; /* Remove a margem superior */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1.6rem; /* Tamanho da fonte */
+    border-bottom: none; /* Sem borda inferior */
+    padding-bottom: 0; /* Sem espaçamento interno inferior */
+    margin-bottom: 0.25rem; /* Margem inferior */
+    color: var(--primary-color); /* Cor do texto */
+}
+
+article p {
+    margin: 0.5rem 0; /* Margem superior e inferior */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-size: 1rem; /* Tamanho da fonte */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    color: var(--text-color); /* Cor de texto secundário mais suave */
+}
+
+article p strong {
+    color: var(--text-color); /* Cor do texto em negrito */
+    font-weight: 400; /* Peso da fonte */
+}
+
+article a {
+    color: var(--text-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 200; /* Peso da fonte */
+}
+
+article a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer {
+    /* Removido position: absolute para um fluxo de página mais natural */
+    width: 100%; /* Largura total */
+    color: var(--tertiary-color); /* Cor do texto geral do rodapé */
+    background-color: var(--secondary-color); /* Cor de fundo vermelha */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-top: none; /* Borda superior */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    position: relative;
+    margin-top: 4rem;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    bottom: 100%; /* Cola exatamente em cima do rodapé */
+    left: 0;
+    width: 100%;
+    height: 60px; /* Altura da cidade */
+    z-index: 1;
+    
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60' preserveAspectRatio='none'%3E%3Cpath d='M0 60 V 20 H 20 V 40 H 40 V 10 H 60 V 35 H 80 V 15 H 100 V 60 Z' fill='%231a1a1d'/%3E%3Cg fill='%23ffee8c'%3E%3Crect x='5' y='25' width='3' height='3'/%3E%3Crect x='12' y='25' width='3' height='3'/%3E%3Crect x='5' y='35' width='3' height='3'/%3E%3Crect x='12' y='35' width='3' height='3'/%3E%3Crect x='5' y='45' width='3' height='3'/%3E%3Crect x='12' y='45' width='3' height='3'/%3E%3Crect x='25' y='45' width='3' height='3'/%3E%3Crect x='32' y='45' width='3' height='3'/%3E%3Crect x='45' y='15' width='3' height='3'/%3E%3Crect x='52' y='15' width='3' height='3'/%3E%3Crect x='45' y='25' width='3' height='3'/%3E%3Crect x='52' y='35' width='3' height='3'/%3E%3Crect x='45' y='45' width='3' height='3'/%3E%3Crect x='52' y='45' width='3' height='3'/%3E%3Crect x='65' y='40' width='3' height='3'/%3E%3Crect x='72' y='40' width='3' height='3'/%3E%3Crect x='85' y='20' width='3' height='3'/%3E%3Crect x='92' y='20' width='3' height='3'/%3E%3Crect x='85' y='30' width='3' height='3'/%3E%3Crect x='92' y='30' width='3' height='3'/%3E%3Crect x='85' y='40' width='3' height='3'/%3E%3Crect x='92' y='40' width='3' height='3'/%3E%3Crect x='85' y='50' width='3' height='3'/%3E%3Crect x='92' y='50' width='3' height='3'/%3E%3C/g%3E%3C/svg%3E");
+    
+    /* Garante que a cidade se repita lado a lado */
+    background-repeat: repeat-x;
+    
+    /* Controla a largura de cada 'bloco' de cidade */
+    background-size: 150px 100%; 
+}
+
+.footer-location {
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+    color: var(--tertiary-color); /* Cor do link branca */
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+.footer-links a:hover {
+    color: #d1d1d1; /* Muda a cor do link para um cinza claro ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    header .search-container input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card-container { /* Estilos para o main em telas menores */
+        padding: 1rem;
+        grid-template-columns: 1fr; /* Apenas uma coluna em telas de celular */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    header .search-container input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    header .search-container input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    header .search-container { /* Estilos para a div do cabeçalho em telas muito pequenas */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+
+    button { /* Estilos para o botão em telas muito pequenas */
+        margin-top: 1rem; /* Adiciona margem no topo */
+    }
+}
+
+/* Funciona em navegadores baseados em Webkit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1d; /* Cor do fundo do site */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color); /* Vermelho */
+    border-radius: 6px;
+    border: 3px solid #1a1a1d; /* Cria um espaço entre a barra e o fundo */
+}
+
+.tags-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-comic {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffde00; /* Amarelo clássico de quadrinhos */
+    color: #000;
+    padding: 2px 8px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    transform: rotate(-2deg); /* Uma leve inclinação para parecer colado */
+}
+
+/* Variação visual: tags pares inclinam para o outro lado */
+.tag-comic:nth-child(even) {
+    transform: rotate(2deg);
+}
+
+.stats-container {
+    width: 100%;
+    margin: 10px 0;
+    background: rgba(207, 207, 207, 0.2); /* Fundo leve para destacar */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-family: 'Inter', sans-serif; /* Ou sua fonte preferida */
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.stat-row span {
+    width: 35px; /* Largura fixa para o texto alinhar */
+}
+
+.bar-bg {
+    flex-grow: 1; /* Ocupa o resto do espaço */
+    height: 6px;
+    background-color: #333;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: var(--primary-color); /* Usa a cor azul do seu tema */
+    box-shadow: 0 0 5px var(--primary-color); /* Brilho neon */
+    border-radius: 3px;
+}
+
+/* Opcional: Mudar a cor da barra baseado no atributo */
+.stat-row:nth-child(1) .bar-fill { background-color: #ff4d4d; box-shadow: 0 0 10px #ff4d4d; } /* Força = Vermelho */
+.stat-row:nth-child(2) .bar-fill { background-color: #4dff4d; box-shadow: 0 0 10px #4dff4d; } /* Agilidade = Verde */
+.stat-row:nth-child(3) .bar-fill { background-color: #4db8ff; box-shadow: 0 0 10px #4db8ff; } /* Tecnica = Azul */
